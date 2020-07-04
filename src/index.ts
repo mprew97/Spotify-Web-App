@@ -1,7 +1,8 @@
-const dotenv = require('dotenv'); // error thrown if using regular import (assuming a js file and not a ts file)
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+
+const dotenv = require('dotenv');
 
 dotenv.config();
 

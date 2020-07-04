@@ -8,10 +8,8 @@ module.exports = {
       jsx: true // Allows for the parsing of JSX
     }
   },
-  settings: {
-    react: {
-      version: "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
-    }
+  rules: {
+    "@typescript-eslint/no-var-requires": 0,
   },
   extends: [
     'airbnb-typescript/base',

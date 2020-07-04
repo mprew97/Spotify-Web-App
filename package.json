@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "webpack": "webpack --config webpack.config.ts",
+    "start": "node dist/index"
   },
   "author": "Mitch Prewitt",
   "license": "MIT",

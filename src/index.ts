@@ -21,7 +21,7 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use('/items', itemsRouter);
-app.use(express.static('src/public'));
+app.use(express.static('src/client'));
 app.use(errorHandler);
 app.use(notFoundHandler);
 
